@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+body{
+    background: -webkit-radial-gradient(top, #97ce4c , #f0e14a);
+}
+.titulo1{
+    padding: 10px;
+    background-color: grey;
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    text-shadow: 0.5px 0.5px greenyellow;
+    font-size: 120%;
+
+}
+.menu-principal{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+
+}
+.menu-principal ul li{
+    display: inline;
+    font-family: 'Patrick Hand SC', cursive;
+    
+}
+.menu-principal ul li a{
+    display: inline-block;
+    padding: 8px;
+    margin: 10px;
+    background-color: #118811;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.menu-principal ul li a:hover{
+    color:#000; 
+    background-color: rgb(43, 255, 0); 
+}
+.img_1{
+    margin: 20px;
+    width: 350px;
+    height: 370px;
+    background-color: #919463;
+    float: left;
+    background-image: url(../img/imagen_1.png);
+    background-size:cover ;
+}
+.contenido-principal{
+    font-family: 'Patrick Hand SC', cursive;
+
+}
+.parrafo-p{
+    margin: 20px;
+    width: auto;
+    height: auto;
+   /* background-color: rgb(184, 180, 180);*/
+    font-size: 21px;
+}
+.videos{
+    
+    display: flex;
+    margin: 90px;
+    width: 5px;
+}
+#video1, #video2{
+    padding: 10px;
+}
+
+footer{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+#redes ul li{
+    display: inline;
+}

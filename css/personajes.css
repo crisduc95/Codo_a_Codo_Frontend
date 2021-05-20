@@ -1,0 +1,139 @@
+/*Vista Mobile*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem; /*1.6rem = 16px*/
+    background: -webkit-radial-gradient(top, #97ce4c , #f0e14a);
+    font-family: 'Patrick Hand SC', cursive;
+    
+}
+
+.titulo{
+    padding: 1rem;
+    background-color: grey;
+    /*background-size: 1000%;*/
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    text-shadow: .09rem .09rem rgb(56, 206, 69);
+    font-size: 120%;
+    animation-duration: 3s;
+    animation-name: animacion_titulo;
+}
+  @keyframes animacion_titulo {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .regreso{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+    transform: perspective();
+}
+
+.regreso a{
+    padding: 3px;
+    margin: 3px;
+    background-color: #118811;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.regreso a:hover{
+    color:#000; 
+    background-color: rgb(43, 255, 0);
+}
+.box{
+    margin: 1.5%;
+    padding: 1%;
+}
+.box a:hover{
+    color:rgb(205, 50, 146);
+    
+}
+.box a{
+    text-decoration: none;
+}
+
+
+.box p{
+    font-size: 120%; /*porcentaje para el responsive*/
+    text-decoration: transparent;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 128, 128, 0.884);
+    border: oldlace;
+
+
+}
+.box figure figcaption{
+    text-align: center;
+    background-color: teal;
+    font-size: 120%;
+    text-transform: uppercase;
+    color: white
+}
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+    
+}
+footer{
+    background-color: gray;
+    font-size:15px;
+    padding: 10px;
+    
+}
+footer a img{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+#redes ul li{
+    display: inline;
+}
+@media  (min-width: 600px){/*Vista tablet*/
+    .box{
+        margin: 1%;
+        padding: .5%;
+    }
+    
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        margin: 1rem;
+        width: 45%;
+        display: inline-block;
+        
+        
+    }
+}
+@media (min-width: 800px){/*vista laptop*/
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        margin-left: 6%;
+        margin-right: 0.5%;
+        width: 25%;
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
+
